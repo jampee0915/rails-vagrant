@@ -64,5 +64,5 @@ rails-vagrant
 ## About this app
 
 ### Version
- - ruby: 2.3.0
+ - ruby: 2.3.3
  - rails: 4.2.5.2
