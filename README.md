@@ -26,18 +26,13 @@ rails-vagrant
   $ cd ~/rails-vagrant
   ```
 
-- centos6.7のboxをインストールする
-  ```
-  $ vagrant box add centos67  https://github.com/CommanderK5/packer-centos-template/releases/download/0.6.7/vagrant-centos-6.7.box
-  ```
-
 - vagrantを起動する
 
   ```  
   $ vagrant up
   ```  
 
-- centos6.7の中に入る
+- centosの中に入る
 
   ```  
   $ vagrant ssh

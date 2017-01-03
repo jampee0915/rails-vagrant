@@ -5,7 +5,9 @@ Vagrant.configure("2") do |config|
 
   GUEST_RUBY_VERSION = '2.3.3'
 
-  config.vm.box = "centos67"
+  config.vm.box = "vagrant-centos-6.7"
+  config.vm.box_check_update = true
+  config.vm.box_url = "https://github.com/CommanderK5/packer-centos-template/releases/download/0.6.7/vagrant-centos-6.7.box"
 
   config.vm.hostname = "centos-7-for-rails"
 
