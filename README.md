@@ -13,6 +13,12 @@ rails-vagrant
 
   https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1.dmg
 
+- Vagrantのプラグインをインストール
+
+  ```
+  $ vagrant plugin install vagrant-vbguest
+  ```
+
 #### 下記はローカルで行う手順です
 - このリポジトリをクローンする
 
